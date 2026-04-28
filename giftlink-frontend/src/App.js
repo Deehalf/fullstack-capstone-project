@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
   navigate('/app/login');
-  }, []);
+  }, [navigate]);
 	
   return (
 		<>
